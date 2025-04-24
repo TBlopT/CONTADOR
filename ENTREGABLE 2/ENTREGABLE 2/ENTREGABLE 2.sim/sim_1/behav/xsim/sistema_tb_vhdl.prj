@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ENTREGABLE 2.srcs/sources_1/new/contador177.vhd" \
+"../../../../ENTREGABLE 2.srcs/sources_1/new/dec7seg.vhd" \
+"../../../../ENTREGABLE 2.srcs/sources_1/new/ffD_preset.vhd" \
+"../../../../ENTREGABLE 2.srcs/sources_1/new/top_module.vhd" \
+"../../../../ENTREGABLE 2.srcs/sim_1/new/sistema_tb.vhd" \
+
+# Do not sort compile order
+nosort
